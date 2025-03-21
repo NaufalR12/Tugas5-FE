@@ -1,4 +1,4 @@
-const apiUrl = "http://34.122.126.184:5000/api/notes";
+const apiUrl = "http://localhost:5000/api/notes";
 
 document.getElementById("addNoteBtn").addEventListener("click", () => {
   document.getElementById("formTitle").innerText = "New Note";
